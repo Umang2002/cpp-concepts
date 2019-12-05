@@ -7,10 +7,7 @@ int main()
   int x,y;
   cout<<"Enter your two numbers : ";
   cin>>x>>y;
-  while(x>=y)
-  {
-    x=x-y;
-  }
-  cout<<"Remainder is "<<x<<endl;
+  int r = x-((x/y)*y);
+  cout<<"Remainder is "<<r<<endl;
   return 0;
 }
