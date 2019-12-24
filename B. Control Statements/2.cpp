@@ -7,25 +7,17 @@ int main()
   cin>>x>>y>>z;
   if(x-y>0)
   {
-    // x>y
     if(z-x>0)
-    {
-      //z is largest
       grt = z;
-    }else{
-      //x is largest
+    else
       grt = x;
-    }
-  }else{
-    //y>x
+  }
+  else
+  {
     if(z-y>0)
-    {
-      //z is largest
       grt = z;
-    }else{
-      //y is largest
+    else
       grt = y;
-    }
   }
   cout<<"Maximum between "<<x<<", "<<y<<" and "<<z<<" is : "<<grt<<endl;
   return 0;
