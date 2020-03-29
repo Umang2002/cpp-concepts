@@ -60,7 +60,7 @@ int main()
 
   b.input(2, 2);
   b.show();
-  
+
   c.add(a, b);
   c.show();
   return 0;
